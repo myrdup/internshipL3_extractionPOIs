@@ -21,8 +21,8 @@ Before to use SCIKITMOB, the environnement must be installed with following comm
 `source activate skmob`  
 
 **in and out files**  
-Input mobility traces are cvs files under the shape "latitude | longitude | timestamp in ms" with name "x.cvs" where x is an integer.  
-Output POIs lists (one list per trace) are cvs files under the shape "user | latitude | longitude | timestamp in | timestamp out".  
+Input mobility traces are cvs files under the shape "latitude | longitude | timestamp (ms)" with name "x.cvs" where x is an integer.  
+Output POIs lists (one list per trace) are cvs files under the shape "user | latitude | longitude | timestamp in (s)| timestamp out (s)".  
 
 **commands make**  
 The makefile has 5 parameters : DURATION, DIAMETER, DATA_IN_DIR, DATA_OUT_DIR and additionnally USER used in case of command `make oneuser`.  
