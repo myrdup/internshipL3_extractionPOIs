@@ -16,7 +16,7 @@ The makefile has 5 parameters : DURATION, DIAMETER, DATA_IN_DIR, DATA_OUT_DIR an
 The syntax is the following : for command `make`, supposing that other parameters are default:  `make DURATION=15 DIAMETER=200`  
 
 The command `make` extracts POIs of all mobility traces (cvs files) located in `[DATA_IN_DIR]`, and stores them in directory named `dur[DURATION]_diam[DIAMETER]`, created (if necessary) in `[DATA_OUT_DIR]`.  
-To run the extraction for a single cvs file, we use command `make oneuser`. The cvs file we are interested in is specified with parameter `USER=x`, where x is the file name without the extension `.cvs` (if file is 4.cvs then USER is 4).  
+To run the extraction for a single cvs file, we use command `make oneuser`. The cvs file we are interested in is specified with parameter `USER=x`, where x is the file name without the extension .cvs (if file is 4.cvs then USER is 4).  
 
 ### PRIMAULT
 PRIMAULT uses the tool detailed in [accio_2015](https://discovery.ucl.ac.uk/id/eprint/10047858/1/Primault_paper.pdf) also based on DT- and DJ-clustering [zhou_2004](https://www.researchgate.net/profile/Dan-Frankowski-2/publication/221589563_Discovering_personal_gazetteers_An_interactive_clustering_approach/links/562a314108ae518e347f1054/Discovering-personal-gazetteers-An-interactive-clustering-approach.pdf)  
