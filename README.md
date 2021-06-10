@@ -56,9 +56,9 @@ The command `make` extracts POIs of all mobility traces (cvs files) located in `
 
 ## References
 
-<a id="scikitmob_2019">[scikitmob_2019]</a> https://arxiv.org/pdf/1907.07062.pdf  
+<a id="scikitmob_2019">[scikitmob_2019]</a> Luca Pappalardo, Filippo Simini, Gianni Barlacchi and Roberto Pellungrini. scikit-mobility: a Python library for the analysis, generation and risk assessment of mobility data, 2019. https://arxiv.org/pdf/1907.07062.pdf  
 <a id="scikitmob_github">[scikitmob_github]</a> https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials  
-<a id="toyama_2004">[toyama_2004]</a> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf  
-<a id="accio_2015">[accio_2015]</a> https://discovery.ucl.ac.uk/id/eprint/10047858/1/Primault_paper.pdf  
+<a id="toyama_2004">[toyama_2004]</a> HARIHARAN, Ramaswamy et TOYAMA, Kentaro. Project Lachesis: parsing and modeling location histories. In : International Conference on Geographic Information Science. Springer, Berlin, Heidelberg, 2004. p. 106-124. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf  
+<a id="accio_2015">[accio_2015]</a> PRIMAULT, Vincent, MAOUCHE, Mohamed, BOUTET, Antoine, et al. ACCIO: How to make location privacy experimentation open and easy. In : 2018 IEEE 38th International Conference on Distributed Computing Systems (ICDCS). IEEE, 2018. p. 896-906. https://discovery.ucl.ac.uk/id/eprint/10047858/1/Primault_paper.pdf  
 <a id="zhou_2004">[zhou_2004]</a> ZHOU, Changqing, FRANKOWSKI, Dan, LUDFORD, Pamela, et al. Discovering personal gazetteers: an interactive clustering approach. In : Proceedings of the 12th annual ACM international workshop on Geographic information systems. 2004. p. 266-273. https://www.researchgate.net/profile/Dan-Frankowski-2/publication/221589563_Discovering_personal_gazetteers_An_interactive_clustering_approach/links/562a314108ae518e347f1054/Discovering-personal-gazetteers-An-interactive-clustering-approach.pdf).  
 
