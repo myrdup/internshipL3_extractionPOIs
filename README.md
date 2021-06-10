@@ -1,8 +1,7 @@
 # internshipL3_extractionPOIs
 
 ## Table of contents
-+ [Tree structure](#Tree structure)
-
++ [Tree structure](#Tree%20structure)
 + [Content](#Content)
   + [Scikitmob](#SCIKITMOB)
   + [Primault](#PRIMAULT)
