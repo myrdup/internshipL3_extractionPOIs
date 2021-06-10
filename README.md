@@ -42,7 +42,7 @@ To run the extraction for a single cvs file, we use command `make oneuser`. The 
 ### PRIMAULT
 PRIMAULT uses the tool detailed in [accio_2015](https://discovery.ucl.ac.uk/id/eprint/10047858/1/Primault_paper.pdf) also based on DT- and DJ-clustering [zhou_2004](https://www.researchgate.net/profile/Dan-Frankowski-2/publication/221589563_Discovering_personal_gazetteers_An_interactive_clustering_approach/links/562a314108ae518e347f1054/Discovering-personal-gazetteers-An-interactive-clustering-approach.pdf).  
 
-**prerequisites**
+**prerequisites**  
 To run the extraction of POIs with PRIMAULT, we need the folder `accio.jar`and file `poi-attack.json`.  
 
 **in and out files**
