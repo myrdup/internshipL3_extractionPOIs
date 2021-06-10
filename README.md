@@ -10,9 +10,9 @@
 Each folder corresponds to a method to extract POIs from a mobility trace.  
 
 ### SCIKITMOB
-SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf) based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf).  
+SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf) and [scikitmob_github](https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials) based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf).  
 
-Before to use SCIKITMOB, the environnement must be installed with following commands, as explained in [scikitmob_github](https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials).
+Before to use SCIKITMOB, the environnement must be installed with following commands :   
 `python3 -m venv skmob`  
 `source skmob/bin/activate`  
 `pip install scikit-mobility`  
@@ -26,4 +26,5 @@ To run the extraction for a single cvs file, we use command `make oneuser`. The 
 
 ### PRIMAULT
 PRIMAULT uses the tool detailed in [accio_2015](https://discovery.ucl.ac.uk/id/eprint/10047858/1/Primault_paper.pdf) also based on DT- and DJ-clustering [zhou_2004](https://www.researchgate.net/profile/Dan-Frankowski-2/publication/221589563_Discovering_personal_gazetteers_An_interactive_clustering_approach/links/562a314108ae518e347f1054/Discovering-personal-gazetteers-An-interactive-clustering-approach.pdf).  
+
 
