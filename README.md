@@ -1,6 +1,7 @@
 # internshipL3_extractionPOIs
 
 ## Tree structure
+* *file* README.md
 * *directory* SCIKITMOB
   * *file* Makefile
 * *directory* PRIMAULT
