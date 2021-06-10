@@ -1,12 +1,15 @@
 # internshipL3_extractionPOIs
 
+## Tree structure
+
 This repository contains :
 
-(folder) SCIKITMOB
-      (file) Makefile
-(folder) PRIMAULT
-      (file) Makefile
+* *folder* SCIKITMOB
+      * *file* Makefile
+* *folder* PRIMAULT
+      * *file* Makefile
 
+## 
 Each folder corresponds to a method to extract POIs from a mobility trace.
 SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf)
 based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf)
