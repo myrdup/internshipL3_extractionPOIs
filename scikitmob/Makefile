@@ -4,6 +4,7 @@ DIAMETER=200#in meters
 USER=24
 DATA_IN_DIR= /home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/
 DATA_OUT_DIR= /home/mdupraz/Documents/L3_stage/code_clustering/scikitmob/results/
+SKMOB_DIR=/home/mdupraz/Documents/L3_stage/code_clustering/scikitmob/
 
 #other macros
 DATA_OUT_SPEC_DIR = $(DATA_OUT_DIR)dur$(DURATION)_diam$(DIAMETER)/
@@ -26,9 +27,13 @@ oneuser : $(DATA_OUT_SPEC_DIR)
 
 
 
-#to remember for installing, does not work with command make
-skmob :
+#installation of skmob (to remember, does not work with make)
+install :
 	python3 -m venv skmob
 	source skmob/bin/activate
 	pip install scikit-mobility
 	source activate skmob
+
+#activation of skmob after installing (to remember, does not work with make)
+activate :
+	source $(SKMOB_DIR)skmob/bin/activate

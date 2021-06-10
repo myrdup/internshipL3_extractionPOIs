@@ -34,9 +34,10 @@ Input mobility traces are cvs files under the shape "latitude | longitude | time
 Output POIs lists (one list per trace) are cvs files under the shape "user | latitude | longitude | timestamp in (s)| timestamp out (s)".  
 
 **commands make**  
-The makefile admits the following parameters : DURATION (in minutes), DIAMETER (in meters), DATA_IN_DIR, DATA_OUT_DIR (directory paths) and additionnally USER (integer) used in case of command `make oneuser`.  
-The syntax is the following : (here for command `make`, supposing that other parameters are default) :  `make DURATION=15 DIAMETER=200`  
-The command `make` extracts POIs of all mobility traces (cvs files) located in `[DATA_IN_DIR]`, and stores them in directory named `dur[DURATION]_diam[DIAMETER]`, created (if necessary) in `[DATA_OUT_DIR]`.  
+The makefile admits the following parameters : DURATION (in minutes), DIAMETER (in meters), DATA_IN_DIR, DATA_OUT_DIR (directory paths), SKMOB_DIR (path to directory where skmob has been installed), and additionnally USER (integer) used in case of command `make oneuser`.  
+
+Before to run the extraction, we must activate skmob with command `make activate`.  
+The command `make` extracts POIs of all mobility traces (cvs files) located in `[DATA_IN_DIR]`, and stores them in directory named `dur[DURATION]_diam[DIAMETER]`, created (if necessary) in `[DATA_OUT_DIR]`. The syntax is the following : (here for command `make`, supposing that other parameters are default) :  `make DURATION=15 DIAMETER=200`  
 To run the extraction for a single cvs file, we use command `make oneuser`. The cvs file we are interested in is specified with parameter `USER=x`, where x is the integer file name without the extension .cvs (if file is 4.cvs then USER is 4).  
 
 ### PRIMAULT
