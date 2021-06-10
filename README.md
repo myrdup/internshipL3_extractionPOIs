@@ -60,5 +60,5 @@ The command `make` extracts POIs of all mobility traces (cvs files) located in `
 <a id="scikitmob_github">[scikitmob_github]</a> https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials  
 <a id="toyama_2004">[toyama_2004]</a> http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf  
 <a id="accio_2015">[accio_2015]</a> https://discovery.ucl.ac.uk/id/eprint/10047858/1/Primault_paper.pdf  
-<a id="zhou_2004">[zhou_2004]</a> https://www.researchgate.net/profile/Dan-Frankowski-2/publication/221589563_Discovering_personal_gazetteers_An_interactive_clustering_approach/links/562a314108ae518e347f1054/Discovering-personal-gazetteers-An-interactive-clustering-approach.pdf).  
+<a id="zhou_2004">[zhou_2004]</a> ZHOU, Changqing, FRANKOWSKI, Dan, LUDFORD, Pamela, et al. Discovering personal gazetteers: an interactive clustering approach. In : Proceedings of the 12th annual ACM international workshop on Geographic information systems. 2004. p. 266-273. https://www.researchgate.net/profile/Dan-Frankowski-2/publication/221589563_Discovering_personal_gazetteers_An_interactive_clustering_approach/links/562a314108ae518e347f1054/Discovering-personal-gazetteers-An-interactive-clustering-approach.pdf).  
 
