@@ -10,7 +10,7 @@
 Each folder corresponds to a method to extract POIs from a mobility trace.  
 
 ### SCIKITMOB
-SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf) based on the DT-clustering method explained in [toyama_2004].(http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf)  
+SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf) based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf).  
 
 The makefile has 5 parameters : DURATION, DIAMETER, DATA_IN_DIR, DATA_OUT_DIR and additionnally USER used in case of command `make oneuser`.  
 The syntax is the following : (here for command `make`, supposing that other parameters are default) :  `make DURATION=15 DIAMETER=200`  
