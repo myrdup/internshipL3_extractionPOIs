@@ -12,6 +12,12 @@ Each folder corresponds to a method to extract POIs from a mobility trace.
 ### SCIKITMOB
 SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf) based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf).  
 
+Before to use SCIKITMOB, the environnement must be installed with following commands, as explained in [scikitmob_github](https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials).
+`python3 -m venv skmob`  
+`source skmob/bin/activate`  
+`pip install scikit-mobility`  
+`source activate skmob`  
+
 The makefile has 5 parameters : DURATION, DIAMETER, DATA_IN_DIR, DATA_OUT_DIR and additionnally USER used in case of command `make oneuser`.  
 The syntax is the following : (here for command `make`, supposing that other parameters are default) :  `make DURATION=15 DIAMETER=200`  
 
