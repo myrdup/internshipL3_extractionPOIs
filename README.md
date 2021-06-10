@@ -5,6 +5,7 @@
 + [Content](#Content)
   + [Scikitmob](#SCIKITMOB)
   + [Primault](#PRIMAULT)
++ [References](#References)
 
 
 ## Tree structure
@@ -19,7 +20,7 @@
 Each folder corresponds to a method to extract POIs from a mobility trace.  
 
 ### SCIKITMOB
-SCIKITMOB uses the tool detailed in [scikitmob_2019](https://arxiv.org/pdf/1907.07062.pdf) and [scikitmob_github](https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials) based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf).  
+SCIKITMOB uses the tool detailed in [scikitmob_2019](#scikitmob_2019) and [scikitmob_github](https://github.com/scikit-mobility/scikit-mobility/blob/master/README.md#tutorials) based on the DT-clustering method explained in [toyama_2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.3690&rep=rep1&type=pdf).  
 
 **prerequisites**  
 Before to use SCIKITMOB, the environnement must be installed with following commands :   
@@ -53,4 +54,7 @@ The makefile admits the following parameters : DURATION (in minutes), DIAMETER (
 The syntax is the following : (here for command `make`, supposing that other parameters are default) :  `make DURATION=15 DIAMETER=200`  
 The command `make` extracts POIs of all mobility traces (cvs files) located in `[DATA_IN_DIR]`, and stores them in directory `[DATA_OUT_DIR]/dur[DURATION]_diam[DIAMETER]/data/someComplicatedName/testPOI/`.  
 
+## References
 
+<a id="scikitmob_2019">[scikitmob_2019]</a> 
+https://arxiv.org/pdf/1907.07062.pdf
