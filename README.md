@@ -5,9 +5,9 @@
 This repository contains :
 
 * *folder* SCIKITMOB
-      * *file* Makefile
+  * *file* Makefile
 * *folder* PRIMAULT
-      * *file* Makefile
+  * *file* Makefile
 
 ## 
 Each folder corresponds to a method to extract POIs from a mobility trace.
