@@ -1,0 +1,58 @@
+{
+  "id" : "90d39867e48a7ee0d176841232808582580dbeb8",
+  "parent" : "4626243d452db6b1cc0cbceafb8a2991cad4acec",
+  "name" : "poi-attack:urltrain=/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/,urltest=/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/,diameter=200.0.meters,duration=PT900S",
+  "seed" : 5382531698411931197,
+  "params" : {
+    "urltrain" : "/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/",
+    "urltest" : "/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/",
+    "diameter" : "200.0.meters",
+    "duration" : 900000
+  },
+  "report" : {
+    "started_at" : 1623412893140,
+    "node_stats" : [
+      {
+        "name" : "EventSourceTrain",
+        "started_at" : 1623412893140,
+        "completed_at" : 1623412893172,
+        "successful" : true,
+        "duration" : 32,
+        "completed" : true
+      },
+      {
+        "name" : "EventSourceTest",
+        "started_at" : 1623412893184,
+        "completed_at" : 1623412893186,
+        "successful" : true,
+        "duration" : 2,
+        "completed" : true
+      },
+      {
+        "name" : "PoisReidentKSet",
+        "started_at" : 1623412893188,
+        "completed" : false
+      }
+    ],
+    "artifacts" : [
+      {
+        "name" : "EventSourceTrain/data",
+        "type" : "dataset",
+        "value" : {
+          "uri" : "/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/",
+          "format" : "csv"
+        }
+      },
+      {
+        "name" : "EventSourceTest/data",
+        "type" : "dataset",
+        "value" : {
+          "uri" : "/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/",
+          "format" : "csv"
+        }
+      }
+    ],
+    "successful" : true,
+    "completed" : false
+  }
+}
