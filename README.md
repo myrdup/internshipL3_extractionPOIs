@@ -13,8 +13,14 @@
 * *directory* SCIKITMOB
   * *file* cvsPOI_from_cvsTrace.py
   * *file* Makefile
+  * *directory* results
+    * *directories* durX_diamY (X=duration in minutes, Y=diameter in meters)
+      * *files* U.csv (U=user, a natural number)
 * *directory* PRIMAULT
   * *file* Makefile
+  * *directory* results
+    * *directories* durX_diamY/data/.../testPOI (X=duration in minutes, Y=diameter in meters)
+      * *files* U.csv (U=user, a natural number)
 
 ## Content
 Each folder corresponds to a method to extract POIs from a mobility trace.  
