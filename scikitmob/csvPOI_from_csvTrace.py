@@ -57,7 +57,7 @@ def csv_from_tdf (csvFile, stdf, user):
 		for i in range(0,nbr_stops,1):
 			t= stdf.at[i,'datetime']
 			lt= stdf.at[i,'leaving_datetime']
-			writer.writerow([user, stdf.at[i,'lat'], stdf.at[i,'lng'], time.mktime(t.timetuple()), time.mktime(lt.timetuple())])
+			writer.writerow([user, stdf.at[i,'lat'], stdf.at[i,'lng'], 1000*time.mktime(t.timetuple()), 1000*time.mktime(lt.timetuple())])
 
 def tdf_from_list (data_list):
 	return skmob.TrajDataFrame(data_list, latitude=1, longitude=2, datetime=3)

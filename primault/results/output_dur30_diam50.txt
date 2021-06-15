@@ -1,0 +1,10 @@
+Writing progress in [33m/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/primault/results/dur30_diam50[0m
+Experiment b16efab2: [32mpoi-attack[0m
+  Run ab04efac: [32mpoi-attack:urltrain=/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/,urltest=/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/,diameter=50.0.meters,duration=PT1800S[0m
+    EventSourceTrain    EventSourceTest     PoisReidentKSet average nb train pois =  20.541666666666668
+ average nb test pois =  20.541666666666668
+train pois =  Map(67 -> 36, 66 -> 39, 51 -> 6, 84 -> 5, 73 -> 78, 78 -> 3, 62 -> 15, 77 -> 0, 90 -> 1, 9 -> 4, 44 -> 2, 26 -> 3, 50 -> 88, 68 -> 22, 13 -> 32, 24 -> 40, 83 -> 43, 35 -> 6, 72 -> 48, 59 -> 92, 87 -> 4, 48 -> 1, 54 -> 3, 65 -> 2, 71 -> 22, 57 -> 13, 32 -> 34, 80 -> 3, 49 -> 16, 36 -> 1, 1 -> 4, 39 -> 15, 17 -> 2, 69 -> 42, 42 -> 46, 75 -> 56, 27 -> 21, 70 -> 2, 2 -> 16, 81 -> 30, 18 -> 18, 30 -> 7, 7 -> 6, 29 -> 5, 41 -> 19, 63 -> 33, 52 -> 1, 85 -> 1)
+test pois =  Map(67 -> 36, 66 -> 39, 51 -> 6, 84 -> 5, 73 -> 78, 78 -> 3, 62 -> 15, 77 -> 0, 90 -> 1, 9 -> 4, 44 -> 2, 26 -> 3, 50 -> 88, 68 -> 22, 13 -> 32, 24 -> 40, 83 -> 43, 35 -> 6, 72 -> 48, 59 -> 92, 87 -> 4, 48 -> 1, 54 -> 3, 65 -> 2, 71 -> 22, 57 -> 13, 32 -> 34, 80 -> 3, 49 -> 16, 36 -> 1, 1 -> 4, 39 -> 15, 17 -> 2, 69 -> 42, 42 -> 46, 75 -> 56, 27 -> 21, 70 -> 2, 2 -> 16, 81 -> 30, 18 -> 18, 30 -> 7, 7 -> 6, 29 -> 5, 41 -> 19, 63 -> 33, 52 -> 1, 85 -> 1)
+POI-Attack user re-identified : Set(67, 66, 51, 84, 73, 78, 62, 90, 9, 44, 26, 50, 68, 13, 24, 83, 35, 72, 59, 87, 48, 54, 65, 71, 57, 32, 80, 49, 36, 1, 39, 17, 69, 42, 75, 27, 70, 2, 81, 18, 30, 7, 29, 41, 63, 52, 85)
+POI-Attack rate : 0.9791666666666666
+                       Done in 5s. Reports in [33m/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/primault/results/dur30_diam50[0m

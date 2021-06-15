@@ -52,7 +52,7 @@ PRIMAULT uses the tool detailed in [accio_2015](https://discovery.ucl.ac.uk/id/e
 **prerequisites**  
 To run the extraction of POIs with PRIMAULT, we need the folder `accio.jar`and file `poi-attack.json`.  
 
-**in and out files**
+**in and out files**  
 Input mobility traces are cvs files under the shape "latitude | longitude | timestamp (ms)" with name "x.cvs" where x is an integer.  
 Output POIs lists (one list per trace) are cvs files under the shape "user | latitude | longitude | number of points in POI | timestamp in (ms)| timestamp out (ms) | effective diameter (m)".  
 
