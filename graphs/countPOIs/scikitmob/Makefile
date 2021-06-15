@@ -1,5 +1,6 @@
 #parameters
-DATA=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/scikitmob/results/dur15_diam200/
+#DATA=/home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/ #pour compter le nombre de points en entrée
+DATA=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/scikitmob/results/dur15_diam500/
 FILE_OUT_POIS=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/graphs/countPOIs/count.txt
 FILE_OUT_USERS=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/graphs/countPOIs/users.txt
 DIR_CODE=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/graphs/countPOIs/

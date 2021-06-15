@@ -1,5 +1,5 @@
 #parameters
-DATA=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/primault/results/dur30_diam50/data/ab04efac1f43c133df2e429ad3f707cfe39be3fe-PoisReidentKSet/testPOI/
+DATA=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/primault/results/dur15_diam500/data/ac162f07ba885869effda4ce1929b619a2bcfc84-PoisReidentKSet/testPOI/
 FILE_OUT_POIS=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/graphs/countPOIs/count.txt
 FILE_OUT_USERS=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/graphs/countPOIs/users.txt
 DIR_CODE=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/graphs/countPOIs/

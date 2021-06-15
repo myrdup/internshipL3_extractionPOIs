@@ -1,0 +1,26 @@
+scikit
+------
+scikit mobility tutorial : https://github.com/scikit-mobility/scikit-mobility#trajdataframe
+scikit mobility presentation : https://scikit-mobility.github.io/scikit-mobility/index.html
+
+scikit database : https://www.microsoft.com/en-us/download/details.aspx?id=52367
+
+datastruct
+-----------
+modify a panda dataframe : https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html
+
+get a value in dataframe : https://kanoki.org/2019/04/12/pandas-how-to-get-a-cell-value-and-update-it/
+
+convert time from date to timestamp : https://stackoverflow.com/questions/33477604/how-to-convert-datetime-object-to-milliseconds
+
+time :
+------
+change date type : https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html
+
+https://docs.python.org/fr/3/library/time.html
+
+csv :
+----
+writing and reading : https://realpython.com/python-csv/
+
+
