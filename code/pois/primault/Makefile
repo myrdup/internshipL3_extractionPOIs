@@ -4,7 +4,7 @@ DIAMETER=200#in meters
 
 DATA_IN_DIR= /home/mdupraz/Documents/L3_stage/mobility-datasets/privamov-tree-30days/
 DATA_OUT_DIR= //home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/pois/primault/
-SRC=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/code/pois/primault/accio.jar
+SRC=/home/mdupraz/Documents/L3_stage/external_source_code/primault/accio.jar
 JSON=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/code/pois/primault/poi-attack.json
 
 #other macros
