@@ -1,0 +1,25 @@
+#characteristics of POIs
+DURATION=15
+DIAMETER=200
+#characteristics of tolerance
+SPATIAL=500#meters
+TEMPORAL=4#hours
+
+all :
+	for p in 1 2 3 4 5 ; do \
+		python3 /home/mdupraz/Documents/L3_stage/code-uniqueness/uniqueness-parallel-POI-primault-rad.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/primault/results/dur$(DURATION)_diam$(DIAMETER)/data/*/testPOI $(SPATIAL) $(TEMPORAL) $$p 100 /home/mdupraz/Documents/L3_stage/code-uniqueness/primault/dur$(DURATION)_diam$(DIAMETER)_spat$(SPATIAL)_temp$(TEMPORAL)/$$p ; \
+		echo primault $$p fini ; \
+		python3 /home/mdupraz/Documents/L3_stage/code-uniqueness/uniqueness-parallel-POI-scikitmob-rad.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/scikitmob/results/dur$(DURATION)_diam$(DIAMETER) $(SPATIAL) $(TEMPORAL) $$p 100 /home/mdupraz/Documents/L3_stage/code-uniqueness/scikitmob/dur$(DURATION)_diam$(DIAMETER)_spat$(SPATIAL)_temp$(TEMPORAL)/$$p ; \
+		echo scikitmob $$p fini ; \
+	done
+
+
+USER=primault#paramètres à préciser en entrée souvent
+NBR=1
+count:
+	python3 count_uniqueness.py /home/mdupraz/Documents/L3_stage/code-uniqueness/$(USER)/dur$(DURATION)_diam$(DIAMETER)_spat$(SPATIAL)_temp$(TEMPORAL)/$(NBR)
+
+
+#	python3 [fichier_code] [repertoire_données] [paramètres] [fichier_sortie]
+#background :
+#	nohup [cmd] &	
