@@ -10,15 +10,6 @@
 
 ## Tree structure
 * *file* README.md
-* *directory* **data**
-  * *directory* pois
-    * *directories* scikitmob / primault / gepeto / sigdbscan
-      * *directories* durX_diamY (X=duration in minutes, Y=diameter in meters)
-       * *files* U.csv (U=user, a natural number)
-  * *directory* uniqueness
-    * *directories* scikitmob / primault / gepeto / sigdbscan
-      * *directories* durX_diamY_spatZ_tempK (X=duration in minutes, Y=diameter in meters, Z=spatial resolution in meters, K=temporal resolution in meters)
-        * *files* U.csv (U=user, a natural number)
 
 * *directory* **code**
   * *directory* pois
@@ -28,6 +19,16 @@
   * *directory* uniqueness
     * *files.py* uniqueness codes adapted to scikitmob / primault / gepeto / sigdbscan
     * Makefile
+
+* *directory* **data**
+  * *directory* pois
+    * *directories* scikitmob / primault / gepeto / sigdbscan
+      * *directories* durX_diamY (X=duration in minutes, Y=diameter in meters)
+       * *files* U.csv (U=user, a natural number)
+  * *directory* uniqueness
+    * *directories* scikitmob / primault / gepeto / sigdbscan
+      * *directories* durX_diamY_spatZ_tempK (X=duration in minutes, Y=diameter in meters, Z=spatial resolution in meters, K=temporal resolution in meters)
+        * *files* U.csv (U=user, a natural number)
 
 * *directory* **results**
   * *directory* countPOIs
