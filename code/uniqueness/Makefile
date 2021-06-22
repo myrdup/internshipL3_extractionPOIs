@@ -5,8 +5,21 @@ DIAMETER=200
 SPATIAL=400#meters
 TEMPORAL=2#hours
 
-all : r1 r2 r3 r4
+all : r0
 
+r0 :
+	for p in 1 2 3 4 5 ; do \
+		python3 /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/code/uniqueness/uniqueness-POI-gepeto.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/pois/gepeto/dur15_diam50_tol0.1_dist13/ 100 2 $$p 100 /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/uniqueness/gepeto/dur15_diam50_tol0.1_dist13_spat100_temp2/$$p ; \
+		echo gepeto $$p fini ; \
+	done
+	echo 15 50 100 2 fini
+	for p in 1 2 3 4 5 ; do \
+		python3 /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/code/uniqueness/uniqueness-POI-gepeto.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/pois/gepeto/dur15_diam50_tol0.1_dist13/ 400 2 $$p 100 /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/uniqueness/gepeto/dur15_diam50_tol0.1_dist13_spat400_temp2/$$p ; \
+		echo gepeto $$p fini ; \
+	done
+	echo 15 50 400 2 fini
+	
+	
 r1 :
 	for p in 1 2 3 4 5 ; do \
 		python3 /home/mdupraz/Documents/L3_stage/code-uniqueness/uniqueness-parallel-POI-primault-rad.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/primault/results/dur15_diam50/data/*/testPOI 100 $(TEMPORAL) $$p 100 /home/mdupraz/Documents/L3_stage/code-uniqueness/primault/dur15_diam50_spat100_temp$(TEMPORAL)/$$p ; \
