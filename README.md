@@ -10,20 +10,34 @@
 
 ## Tree structure
 * *file* README.md
-* *directory* SCIKITMOB
-  * *file* cvsPOI_from_cvsTrace.py
-  * *file* Makefile
-  * *directory* results
-    * *directories* durX_diamY (X=duration in minutes, Y=diameter in meters)
-      * *files* U.csv (U=user, a natural number)
-* *directory* PRIMAULT
-  * *file* Makefile
-  * *directory* results
-    * *directories* durX_diamY/data/.../testPOI (X=duration in minutes, Y=diameter in meters)
-      * *files* U.csv (U=user, a natural number)
 
-## Content
-Each folder corresponds to a method to extract POIs from a mobility trace.  
+* *directory* **code**
+  * *directory* pois
+    * *directories* scikitmob / primault / gepeto / sigdbscan
+      * *files.py* eventual additional code to eventual prerequisites
+      * Makefile
+  * *directory* uniqueness
+    * *files.py* uniqueness codes adapted to scikitmob / primault / gepeto / sigdbscan
+    * Makefile
+
+* *directory* **data**
+  * *directory* pois
+    * *directories* scikitmob / primault / gepeto / sigdbscan
+      * *directories* durX_diamY (X=duration in minutes, Y=diameter in meters)
+       * *files* U.csv (U=user, a natural number)
+  * *directory* uniqueness
+    * *directories* scikitmob / primault / gepeto / sigdbscan
+      * *directories* durX_diamY_spatZ_tempK (X=duration in minutes, Y=diameter in meters, Z=spatial resolution in meters, K=temporal resolution in meters)
+        * *files* U.csv (U=user, a natural number)
+
+* *directory* **results**
+  * *directory* countPOIs
+    * figures, eventual codes and Makefiles
+  * *directory* commonPOIs
+  * *directory* uniqueness
+
+## Extraction of POIs (./code/pois/ and ./data/pois)
+Each folder in those directories corresponds to a method to extract POIs from a mobility trace.  
 
 ### SCIKITMOB
 SCIKITMOB uses the tool detailed in [scikitmob_2019](#scikitmob_2019) and [scikitmob_github](#scikitmob_github) based on the DT-clustering method explained in [toyama_2004](#toyama2004).  
