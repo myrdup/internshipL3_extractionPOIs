@@ -1,0 +1,91 @@
+DIR=/home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/
+
+all :
+	#python3 $(DIR)pois/primault/dur15_diam$$diameter/data/*/testPOI 100 2 5 100 $(DIR)data/uniqueness/primault/dur15_diam$$diameter_spat100_temp2/5
+	#echo 15 2 50 100 primault 
+	#python3 $(DIR)pois/scikitmob/dur15_diam$$diameter 100 2 5 100 $(DIR)data/uniqueness/scikitmob/dur15_diam$$diameter_spat100_temp2/5
+	#echo 15 2 50 100 scikitmob
+	#python3 $(DIR)pois/gepeto/dur15_diam$$diameter 100 2 5 100 $(DIR)data/uniqueness/gepeto/dur15_diam$$diameter_spat100_temp2/5
+	#echo 15 2 50 100 gepeto
+	
+	#variable diameter
+	python3 $(DIR)pois/primault/dur15_diam200/data/*/testPOI 100 2 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam200_spat100_temp2/5
+	echo 15 200 100 2 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam200 100 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam200_spat100_temp2/5
+	echo 15 200 100 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam200 100 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam200_tol0.1_dist42_spat100_temp2/5
+	echo 15 200 100 2 gepeto
+	
+	python3 $(DIR)pois/primault/dur15_diam500/data/*/testPOI 100 2 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam500_spat100_temp2/5
+	echo 15 500 100 2 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam500 100 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam500_spat100_temp2/5
+	echo 15 500 100 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam500 100 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam500_tol0.1_dist125_spat100_temp2/5
+	echo 15 500 100 2 gepeto
+	
+	#variable duration
+	python3 $(DIR)pois/primault/dur15_diam50/data/*/testPOI 50 2 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam50_spat50_temp2/5
+	echo 15 50 50 2 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam50_spat50_temp2/5
+	echo 15 50 50 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam50_tol0.1_dist13_spat50_temp2/5
+	echo 15 50 50 2 gepeto
+	
+	python3 $(DIR)pois/primault/dur30_diam50/data/*/testPOI 50 2 5 100 $(DIR)data/uniquenessParameters/primault/dur30_diam50_spat50_temp2/5
+	echo 30 50 50 2 primault
+	python3 $(DIR)pois/scikitmob/dur30_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur30_diam50_spat50_temp2/5
+	echo 30 50 50 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur30_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur30_diam50_tol0.1_dist13_spat50_temp2/5
+	echo 30 50 50 2 gepeto
+	
+	python3 $(DIR)pois/primault/dur60_diam50/data/*/testPOI 50 2 5 100 $(DIR)data/uniquenessParameters/primault/dur60_diam50_spat50_temp2/5
+	echo 60 50 50 2 primault
+	python3 $(DIR)pois/scikitmob/dur60_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur60_diam50_spat50_temp2/5
+	echo 60 50 50 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur60_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur60_diam50_tol0.1_dist13_spat50_temp2/5
+	echo 60 50 50 2 gepeto
+	
+	#variable diameter and r-spatial
+	python3 $(DIR)pois/primault/dur15_diam50/data/*/testPOI 50 2 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam50_spat50temp2/5
+	echo 15 50 50 2 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam50_spat50_temp2/5
+	echo 15 50 50 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam50_tol0.1_dist13_spat50_temp2/5
+	echo 15 50 50 2 gepeto
+	
+	python3 $(DIR)pois/primault/dur15_diam200/data/*/testPOI 200 2 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam200_spat200_temp2/5
+	echo 15 200 200 2 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam200 200 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam200_spat200_temp2/5
+	echo 15 200 200 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam200 200 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam200_tol0.1_dist42_spat200_temp2/5
+	echo 15 200 200 2 gepeto
+	
+	python3 $(DIR)pois/primault/dur15_diam500/data/*/testPOI 500 2 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam500_spat500_temp2/5
+	echo 15 500 500 2 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam500 500 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam500_spat500_temp2/5
+	echo 15 500 500 2 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam500 500 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam500_tol0.1_dist125_spat500_temp2/5
+	echo 15 500 500 2 gepeto
+	
+	#variable duration and r-temporal
+	python3 $(DIR)pois/primault/dur15_diam50/data/*/testPOI 50 1 5 100 $(DIR)data/uniquenessParameters/primault/dur15_diam50_spat50_temp1/5
+	echo 15 50 50 1 primault
+	python3 $(DIR)pois/scikitmob/dur15_diam50 50 1 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur15_diam50_spat50_temp1/5
+	echo 15 50 50 1 scikitmob
+	python3 $(DIR)pois/gepeto/dur15_diam50 50 1 5 100 $(DIR)data/uniquenessParameters/gepeto/dur15_diam50_tol0.1_dist13_spat50_temp1/5
+	echo 15 50 50 1 gepeto
+	
+	#python3 $(DIR)pois/primault/dur30_diam50/data/*/testPOI 50 2 5 100 $(DIR)data/uniquenessParameters/primault/dur30_diam50_spat50_temp2/5
+	#echo 30 50 50 2 primault
+	#python3 $(DIR)pois/scikitmob/dur30_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur30_diam50_spat50_temp2/5
+	#echo 30 50 50 2 scikitmob
+	#python3 $(DIR)pois/gepeto/dur30_diam50 50 2 5 100 $(DIR)data/uniquenessParameters/gepeto/dur30_diam50_tol0.1_dist13_spat50_temp2/5
+	#echo 30 50 50 2 gepeto
+	
+	python3 $(DIR)pois/primault/dur60_diam50/data/*/testPOI 50 4 5 100 $(DIR)data/uniquenessParameters/primault/dur60_diam50_spat50_temp4/5
+	echo 60 50 50 4 primault
+	python3 $(DIR)pois/scikitmob/dur60_diam50 50 4 5 100 $(DIR)data/uniquenessParameters/scikitmob/dur60_diam50_spat50_temp4/5
+	echo 60 50 50 4 scikitmob
+	python3 $(DIR)pois/gepeto/dur60_diam50 50 4 5 100 $(DIR)data/uniquenessParameters/gepeto/dur60_diam50_tol0.1_dist13_spat50_temp4/5
+	echo 60 50 50 4 gepeto
+

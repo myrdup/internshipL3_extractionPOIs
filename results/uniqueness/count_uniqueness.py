@@ -30,7 +30,7 @@ def count_uniqueness (file, user):
 			if point[0]==1: #draw in which the user is unique
 				i+=1
 			nbrDraws+=1
-		print(user, i)
+		print(i)
 		return 0
 
 listUsers=os.listdir(inputDirectory)
@@ -39,5 +39,5 @@ for filename in listUsers: #the count is done for every user in the inputDirecto
 	if fnmatch.fnmatch(filename, '[!POI]*.csv'): #the inputDirectory also contains another file per user, whose name starts with "POI", and that contains the identifyers of selected POIs for every draw : those files are meaningless here, so we do not consider them
 		user = int(filename.split(".")[0]) #the user identifyer is deduced from the csvfile name
 		count_uniqueness(inputDirectory+'/'+filename, user)
-print('nbrDraws',nbrDraws)
+print(nbrDraws)
 		

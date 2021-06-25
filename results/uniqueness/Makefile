@@ -8,10 +8,10 @@ TEMPORAL=2#hours
 DISTANCE=13
 TOLERANCE=0.1
 
-USER=gepeto#paramètres à préciser en entrée souvent
-NBR=1#p = number of selected POIs in the draw for the computation of uniqueness
+USER=primault#paramètres à préciser en entrée souvent
+NBR=5#p = number of selected POIs in the draw for the computation of uniqueness
 all : 
 	python3 count_uniqueness.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/uniqueness/$(USER)/dur$(DURATION)_diam$(DIAMETER)_spat$(SPATIAL)_temp$(TEMPORAL)/$(NBR)
 
 gepeto :
-	python3 count_uniqueness.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/uniqueness/$(USER)/dur$(DURATION)_diam$(DIAMETER)_tol$(TOLERANCE)_dist$(DISTANCE)_spat$(SPATIAL)_temp$(TEMPORAL)/$(NBR)
+	python3 count_uniqueness.py /home/mdupraz/Documents/L3_stage/internshipL3_extractionPOIs/data/uniqueness/gepeto/dur$(DURATION)_diam$(DIAMETER)_tol$(TOLERANCE)_dist$(DISTANCE)_spat$(SPATIAL)_temp$(TEMPORAL)/$(NBR)
